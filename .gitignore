@@ -1,0 +1,69 @@
+# ---------------------------
+# Node & Dependency Files
+# ---------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-debug.log*
+
+# ---------------------------
+# Build & Output Folders
+# ---------------------------
+dist/
+build/
+.cache/
+coverage/
+.next/
+out/
+
+# ---------------------------
+# Environment Variables
+# ---------------------------
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ---------------------------
+# IDE & Editor Config
+# ---------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+# ---------------------------
+# OS-specific Files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Mastra Cloud & Deployment
+# ---------------------------
+.mastrarc
+.mastra/
+mastra-output/
+*.mastra-cache
+.mastralog
+*.sqlite
+*.db
+
+# ---------------------------
+# TypeScript
+# ---------------------------
+*.tsbuildinfo
+
+# ---------------------------
+# Miscellaneous
+# ---------------------------
+tmp/
+temp/
+logs/
+*.pid
+*.seed

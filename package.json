@@ -1,0 +1,40 @@
+{
+  "name": "a2a-interview-coach",
+  "version": "1.0.0",
+  "description": "An A2A-compliant Mastra agent powered by Gemini for interview preparation across all fields.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/mastra/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "deploy": "mastra deploy"
+  },
+  "keywords": [
+    "mastra",
+    "gemini",
+    "a2a",
+    "agent",
+    "ai",
+    "typescript",
+    "mastra-cloud"
+  ],
+  "author": "Mael Sunny",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^1.28.0",
+    "@mastra/core": "^0.23.3",
+    "@mastra/libsql": "^0.16.1",
+    "@mastra/loggers": "^0.10.18",
+    "@mastra/memory": "^0.15.10",
+    "dotenv": "^17.2.3",
+    "uuid": "^13.0.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "mastra": "^0.17.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
