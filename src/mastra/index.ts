@@ -16,6 +16,9 @@ export const mastra = new Mastra({
     build: { openAPIDocs: true, swaggerUI: true },
     apiRoutes: [a2aAgentRoute],
   },
+    bundler: {
+      externals: ["@google/genai"],
+  },
 });
 
 console.log("✅ Mastra server initialized successfully");
