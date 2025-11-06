@@ -4,9 +4,9 @@
   "description": "An A2A-compliant Mastra agent powered by Gemini for interview preparation across all fields.",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "ts-node src/mastra/index.ts",
+    "dev": "npx mastra dev",
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "npx mastra start",
     "deploy": "mastra deploy"
   },
   "keywords": [

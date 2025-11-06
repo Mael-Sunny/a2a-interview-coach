@@ -1,9 +1,11 @@
 // src/mastra/index.ts
+import 'dotenv/config';
 import { Mastra } from "@mastra/core/mastra";
 import { PinoLogger } from "@mastra/loggers";
 import { LibSQLStore } from "@mastra/libsql";
-import { interviewAgent } from "./agents/interview-agent";
-import { a2aAgentRoute } from "./routes/a2a-agent-route";
+import { interviewAgent } from "./agents/interview-agent.js";
+import { a2aAgentRoute } from "./routes/a2a-agent-route.js";
+
 
 export const mastra = new Mastra({
   agents: { interviewAgent },
